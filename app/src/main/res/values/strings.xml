@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" >
+    <!-- Title for the application. [CHAR LIMIT=30] -->
+    <string name="app_name">Voltage And Current Quiz</string>
+
+    <!-- Quiz description [CHAR LIMIT=30] -->
+    <string name="quiz_description">Test your voltage and current knowledge</string>
+
+    <!-- Hint text display in the empty editable field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name Surname</string>
+
+    <!-- Text display for the user's question 1 [CHAR LIMIT=] -->
+    <string name="question1_name">#1 Current equals:</string>
+
+    <!-- RadioButton text display for the user's question 1, answer 1 [CHAR LIMIT=] -->
+    <string name="answer1_question1">coulombs/time</string>
+
+    <!-- RadioButton text display for the user's question 1, answer 2 [CHAR LIMIT=] -->
+    <string name="answer2_question1">coulombs*time</string>
+
+    <!-- RadioButton text display for the user's question 1, answer 3 [CHAR LIMIT=] -->
+    <string name="answer3_question1">voltage/time</string>
+
+    <!-- Text display for the user's question 2 [CHAR LIMIT=] -->
+    <string name="question2_name">#2 The negative and positive charge symbols are assigned (in that order) to the:</string>
+
+    <!-- RadioButton text display for the user's question 2, answer 1 [CHAR LIMIT=] -->
+    <string name="answer1_question2">electron and element</string>
+
+    <!-- RadioButton text display for the user's question 2, answer 2 [CHAR LIMIT=] -->
+    <string name="answer2_question2">atom and proton</string>
+
+    <!-- RadioButton text display for the user's question 2, answer 3 [CHAR LIMIT=] -->
+    <string name="answer3_question2">electron and proton</string>
+
+    <!-- Text display for the user's question 3 [CHAR LIMIT=] -->
+    <string name="question3_name">#3 Which countries use 230V AC voltage?</string>
+
+    <!-- CheckBox text display for the user's question 3, answer 1 [CHAR LIMIT=] -->
+    <string name="answer1_question3">China</string>
+
+    <!-- CheckBox text display for the user's question 3, answer 2 [CHAR LIMIT=] -->
+    <string name="answer2_question3">Australia</string>
+
+    <!-- CheckBox text display for the user's question 3, answer 3 [CHAR LIMIT=] -->
+    <string name="answer3_question3">Germany</string>
+
+    <!-- Text display for the user's question 4 [CHAR LIMIT=] -->
+    <string name="question4_name">#4 Write the measuring unit for electrical parameter (Current)</string>
+
+    <!-- Hint text display in the empty editable field for the user's answer 4 [CHAR LIMIT=] -->
+    <string name="question4_hint">Measuring Unit</string>
+
+    <!-- Hint Button text to display for submit answers [CHAR LIMIT=] -->
+    <string name="score_name">To get your score, submit answers!</string>
+
+    <!-- Hint Button text to display for submit answers [CHAR LIMIT=] -->
+    <string name="submit">Submit answers</string>
+
+    <!-- Name and additional text is combined for the quiz Toast summary. It will be shown in the format of "Name Surname have answered" where Full name is the
+  user's Full name. [CHAR LIMIT=NONE] -->
+    <string name="user_have_answered"><xliff:g id="name" example="Full name">%s</xliff:g> have answered </string>
+
+    <!-- Additional text "of" is combined for the quiz Toast summary. Example; 4 of 4 [CHAR LIMIT=NONE] -->
+    <string name="of">of</string>
+
+    <!-- Additional text "correct answers" is combined for the quiz Toast summary. Example; 4 of 4 correct answers [CHAR LIMIT=NONE] -->
+    <string name="correct_answers">correct answers!</string>
+
+</resources>
