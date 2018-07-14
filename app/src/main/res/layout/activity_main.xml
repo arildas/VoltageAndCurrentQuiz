@@ -124,7 +124,7 @@
                 android:text="@string/answer2_question2"
                 android:textSize="@dimen/text_size" />
 
-            <!-- Select this radio button for question 2 correct answer -->
+            <!-- Select this radio button for question 2 correct answer. -->
             <RadioButton
                 android:id="@+id/radio_button3_question2"
                 android:layout_width="wrap_content"
