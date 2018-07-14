@@ -50,7 +50,10 @@ public class MainActivity extends AppCompatActivity {
         // Get user's name
         Editable nameEditable = nameField.getText();
         String name = nameEditable.toString();
-
+        if (name.trim().equals("")) {
+            Toast.makeText(this, "Enter your name ", Toast.LENGTH_LONG).show();
+            return;
+        }
         Log.v("MainActivity", "Full name: " + name);
 
         //Check if correct answer is checked for question1
