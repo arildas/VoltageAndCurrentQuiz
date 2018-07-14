@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         // Get user's name
         Editable nameEditable = nameField.getText();
         String name = nameEditable.toString();
+
         Log.v("MainActivity", "Full name: " + name);
 
         //Check if correct answer is checked for question1
